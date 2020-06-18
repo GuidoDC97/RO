@@ -13156,7 +13156,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Utility-Functions">Utility Functions<a class="anchor-link" href="#Utility-Functions">&#182;</a></h2>
+<h2 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13619,11 +13619,10 @@ div#notebook {
         <span class="n">technique</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">technique</span> <span class="o">=</span> <span class="mi">2</span>
-            
-<span class="c1">#     # Remove target files with compilation time &gt; deadline</span>
-<span class="c1">#     real_target = [t for t in temp_target if target[t][0]&gt;time[t][0]]</span>
     
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Score </span><span class="se">\t</span><span class="s2"> Good Dataset </span><span class="se">\t</span><span class="s2"> Bad Dataset&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Technique: &quot;</span><span class="p">,</span> <span class="n">technique</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Score </span><span class="se">\t</span><span class="s2"> Good Target </span><span class="se">\t</span><span class="s2"> Bad Target&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;------------------------------------&quot;</span><span class="p">)</span>        
     <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
@@ -13850,7 +13849,8 @@ div#notebook {
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Dataset: a_example
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  1
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 0 	 0 	 3
 25 	 1 	 1
@@ -13860,7 +13860,8 @@ Best score: 25
 
 Dataset: b_narrow
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  1
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 992418 	 50 	 0
 ------------------------------------
@@ -13868,7 +13869,8 @@ Best score: 992418
 
 Dataset: c_urgent
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  2
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 1063647 	 5 	 15
 1084257 	 5 	 14
@@ -13882,7 +13884,8 @@ Best score: 1238841
 
 Dataset: d_typical
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  2
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 3242 	 2 	 97
 2378 	 1 	 97
@@ -13972,7 +13975,8 @@ Best score: 136652
 
 Dataset: e_intriguing
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  2
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 0 	 0 	 11
 0 	 0 	 10
@@ -13990,7 +13994,8 @@ Best score: 1
 
 Dataset: f_big
 ------------------------------------
-Score 	 Good Dataset 	 Bad Dataset
+Technique:  1
+Score 	 Good Target 	 Bad Target
 ------------------------------------
 11547 	 2 	 73
 11547 	 2 	 72
@@ -14131,7 +14136,7 @@ height=344
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;networkx.classes.digraph.DiGraph at 0x2e8fb4cfcc0&gt;</pre>
+<pre>&lt;networkx.classes.digraph.DiGraph at 0x21719a1c7b8&gt;</pre>
 </div>
 
 </div>
