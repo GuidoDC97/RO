@@ -7,7 +7,7 @@ Problem description can be found in file **hashcode2019_final_task.pdf**.
 
 # Solution
 
-The problem has been solved using python's language in Jupyter Notebook IDE.
+The problem has been solved using python language in Jupyter Notebook IDE.
 Briefly the solution involves two main steps:
 * First a greedy heuristic aimed in obtaining a feasible solution, reducing execution time and keeping low the complexity of the problem.
 * Then an improvement heuristic to improve the quality of solution obtained using the greedy search.
