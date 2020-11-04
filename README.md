@@ -1,6 +1,8 @@
 # Operative Research
 Repository for operative research project.
 
+AY 2019/2020
+
 Group project consisting in solving Google HashCode 2019 final task.
 
 Problem description can be found in file **[hashcode2019_final_task.pdf](hashcode2019_final_task.pdf)**.
